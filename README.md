@@ -1,5 +1,5 @@
 # SpellMadness
-Codificação SpellMadness versão alpha
+Codificação GAME SpellMadness versão alpha
 
 Codificação de um projeto de jogo idealizado e desenvolvido por mim (André Luiz Micheletti) por hobbie.
 
