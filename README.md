@@ -23,7 +23,7 @@ It is a 2D platformer where you control a mage that can cast several spells. It 
 
 Watch a demonstration video:
 
-[![Watch a demo](https://img.youtube.com/vi/QzRUxwdqFXE/0.jpg)](https://www.youtube.com/watch?v=QzRUxwdqFXE)
+[![Watch a demo](https://j.gifs.com/8qRRgr.gif)](https://www.youtube.com/watch?v=QzRUxwdqFXE)
 
 ### Download
 
