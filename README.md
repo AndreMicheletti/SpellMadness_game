@@ -1,15 +1,35 @@
 # SpellMadness
-Codificação GAME SpellMadness versão alpha
 
-Codificação de um projeto de jogo idealizado e desenvolvido por mim (André Luiz Micheletti) por hobbie.
+SpellMadness is a game designed and developed by me when I was starting to dive into game development.
+It was never finished, but it has a playable version.
 
-O jogo é escrito em JAVA e se utiliza de bibliotecas próprias para facilitar o desenvolvimento de games.
+It was programmed using [JAVA](https://www.java.com/) with libraries like: [LWJGL](https://www.lwjgl.org/), [Slick2D](http://slick.ninjacave.com/), and others.
 
-Trata-se de um jogo platformer onde controla-se um mago com diversas magias. Está em fase de desenvolvimento muito
-primitiva e encontra-se atualmente congelado.
+## Quick links
 
-O jogo possui uma versão ALPHA para teste, e pode ser jogado através de um .jar
+I didn't know that time, but I was starting to write code using some patterns, and I find this very interesting.
 
-Download: https://mega.nz/#!Q5Y33BYA!ce7ezLAvRj-F3pIYMFq0TbFoilzFbhkZ3NS8r3m8kkM
+I've used [Scenes](https://github.com/AndreMicheletti/SpellMadness_game/blob/master/engine/scene/SceneBase.java) to define each play mode and put the managing of it inside the [main loop](https://github.com/AndreMicheletti/SpellMadness_game/blob/master/engine/Engine.java#L118) for the game.
 
-Video : https://www.youtube.com/watch?v=QzRUxwdqFXE
+(Character)[https://github.com/AndreMicheletti/SpellMadness_game/blob/master/engine/object/Character.java] class to control the (Physics2D)[https://github.com/AndreMicheletti/SpellMadness_game/blob/master/engine/object/Character.java#L105] of the characters in the world.
+
+For the Visual Effetcs, there is a [Particle](https://github.com/AndreMicheletti/SpellMadness_game/blob/master/engine/effects/Particle.java) class that is the tiny visual elements that are spawned by [AnimationFX](https://github.com/AndreMicheletti/SpellMadness_game/blob/master/engine/effects/AnimationFX.java) class to create the Spell's effects.
+
+And the [LightFX](https://github.com/AndreMicheletti/SpellMadness_game/blob/master/engine/effects/LightFX.java) create the lightning of the scene by drawing a bitmap with AlphaBlending and putting some life to it.
+
+## About the Game
+
+It is a 2D platformer where you control a mage that can cast several spells. It has nice lightning and effects.
+
+Watch a demonstration video:
+[![Watch a demo](https://img.youtube.com/vi/QzRUxwdqFXE/0.jpg)](https://www.youtube.com/watch?v=QzRUxwdqFXE)
+
+### Play: Download
+
+You can download the .jar [playable version](https://mega.nz/#!Q5Y33BYA!ce7ezLAvRj-F3pIYMFq0TbFoilzFbhkZ3NS8r3m8kkM)
+
+## Credits
+
+- Brian Matzon <brian@matzon.dk> for [SoundManager](https://github.com/AndreMicheletti/SpellMadness_game/blob/master/main/SoundManager.java)
+- [Slick2D](http://slick.ninjacave.com/)
+- [LWJGL](https://www.lwjgl.org/)
